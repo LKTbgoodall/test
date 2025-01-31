@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Réponse Candidature</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Bouton de navigation vers Opération -->
+      <div class="navigation">
+        <button onclick="window.location.href='index.html'">Aller à Opération</button>
+      </div>
+
+      <h1>Réponses Candidatures</h1>
+      <div class="checkbox-group">
+        <label for="age"
+          ><input type="checkbox" id="age" onchange="generatePattern()" />
+          Âge</label
+        >
+        <label for="nationalite"
+          ><input
+            type="checkbox"
+            id="nationalite"
+            onchange="generatePattern()"
+          />
+          Nationalité</label
+        >
+        <label for="diplomes"
+          ><input type="checkbox" id="diplomes" onchange="generatePattern()" />
+          Diplômes</label
+        >
+        <label for="antecedents"
+          ><input
+            type="checkbox"
+            id="antecedents"
+            onchange="generatePattern()"
+          />
+          Antécédents judiciaires</label
+        >
+        <label for="disponibilites"
+          ><input
+            type="checkbox"
+            id="disponibilites"
+            onchange="generatePattern()"
+          />
+          Disponibilités</label
+        >
+        <label for="lettre"
+          ><input type="checkbox" id="lettre" onchange="generatePattern()" />
+          Lettre de motivations</label
+        >
+        <label for="mail"
+          ><input type="checkbox" id="mail" onchange="generatePattern()" />
+          Mail</label
+        >
+        <label for="ia"
+          ><input type="checkbox" id="ia" onchange="generatePattern()" />
+          IA</label
+        >
+      </div>
+      <button onclick="copyToClipboard()">Copier</button>
+      <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
