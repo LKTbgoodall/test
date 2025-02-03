@@ -115,7 +115,7 @@ ${vehiculeFormate}
 
 🎯 𝑭𝒊𝒏 𝒅𝒆 𝒍'𝑶𝒑𝒆́𝒓𝒂𝒕𝒊𝒐𝒏 : code 4
 -# 170 | Dorian Rossini
--# 🐍  Opérateur COBRA`;
+-# 🐍  Coordinateur COBRA`;
 }
 
 // Copier le résultat
